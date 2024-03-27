@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body{
+    background: hsl(30, 54%, 90%);
+}
+.body{
+    position: absolute;
+    width: 1440px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background: hsl(330, 100%, 98%);
+    border-radius: 25px;
+    margin-top: 30%;
+}
+.preparation, .ingredients, .instructions, .nutrition, .p1, h1 {
+    margin: 20px;
+    margin-left: 5%;
+}
+img{
+    margin: 20px;
+    margin-left: 5%;
+    border-radius: 25px;
+    width: auto;
+}
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+}
+.p1{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(24, 5%, 18%);
+}
+h3{
+    padding-left: 10px;
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+}
+.preparation{
+    margin: 20px;
+    margin-left: 5%;
+    background: hsla(332, 51%, 32%, 0.103);
+    padding: 15px;
+    border-radius: 25px;
+}
+.lli{
+    font-weight: 600;
+}
+ul li{
+    font-family: "Outfit", sans-serif;
+    padding-left: 20px;
+    color: hsl(24, 5%, 18%);
+}
+h2{
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+}
+ol li{
+    font-family: "Outfit", sans-serif;
+    padding-left: 20px;
+    color: hsl(24, 5%, 18%);
+}
+.oll{
+    font-weight: 600;
+    color: hsl(24, 5%, 18%);
+    display: inline-block;
+}
+hr{
+    margin: 20px;
+    margin-left: 5%; 
+}
+p{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(24, 5%, 18%);
+}
+table tr td{
+    width: 400px;
+    margin: 40px;
+}
+table{
+    border: 44px;
+}
